@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pbp:PackageBuilderProject SchemaVersion="1.1" Id="e92a2aab-642e-47ac-9cb3-5e48b37fef23" Name="PerkinElmer Sample Template App" Version="1.0.0.0" IntendedClient="Core" xmlns:pbp="http://spotfire.tibco.com/PackageBuilderProject.xsd">
+  <pbp:ModuleFile RelativePath="module.xml" UpdateAutomatically="true" />
+  <pbp:BuildFolder RelativePath="bin\Debug" />
+  <pbp:Files>
+    <pbp:File RelativePath="log4net.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="log4net.xml" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Newtonsoft.Json.xml" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PatientProfile.dll.config" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PatientProfile.pdb" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Analytics.AppCommon.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Analytics.AppCommon.dll.config" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Analytics.AppCommon.pdb" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Analytics.Components.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Analytics.Components.dll.config" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Analytics.Components.pdb" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.AppStoreTool.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.AppStoreTool.dll.config" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.AppStoreTool.pdb" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.Common.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.Common.dll.config" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.Common.pdb" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.CustomSettings.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.CustomSettings.dll.config" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Signals.Spotfire.CustomSettings.pdb" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Spotfire.Datafunctions.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="PerkinElmer.Spotfire.Datafunctions.dll.config" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="PerkinElmer.Spotfire.Datafunctions.pdb" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Spotfire.Dxp.Application.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="Spotfire.Dxp.Application.xml" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Spotfire.Dxp.Data.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="Spotfire.Dxp.Data.Formats.Sbdf.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="Spotfire.Dxp.Data.Formats.Sbdf.xml" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Spotfire.Dxp.Data.Formats.Stdf.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="Spotfire.Dxp.Data.Formats.Stdf.xml" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Spotfire.Dxp.Data.xml" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Spotfire.Dxp.Framework.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="Spotfire.Dxp.Framework.xml" Included="false" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Spotfire.Dxp.Internal.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="Spotfire.Dxp.Services.dll" Included="false" ExtensionAssembly="true" />
+    <pbp:File RelativePath="module.xml" Included="true" ExtensionAssembly="false" />
+    <pbp:File RelativePath="Newtonsoft.Json.dll" Included="true" ExtensionAssembly="true" />
+    <pbp:File RelativePath="PatientProfile.dll" Included="true" ExtensionAssembly="true" />
+  </pbp:Files>
+</pbp:PackageBuilderProject>

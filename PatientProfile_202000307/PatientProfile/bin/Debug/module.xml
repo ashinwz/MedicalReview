@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>e92a2aab-642e-47ac-9cb3-5e48b37fef23</id>
+  <name>PatientProfile</name>
+  <version>1.0.0.0</version>
+  <intendedClient>Core</intendedClient>
+  <assemblies>
+    <assembly>
+      <fullname>Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed</fullname>
+      <codebase>Newtonsoft.Json.dll</codebase>
+      <compatibility>
+        <min-version>0.0.0.0</min-version>
+        <max-version>#.#.*.*</max-version>
+      </compatibility>
+    </assembly>
+    <assembly>
+      <fullname>PatientProfile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4d95002c27fab778</fullname>
+      <codebase>PatientProfile.dll</codebase>
+      <compatibility>
+        <min-version>0.0.0.0</min-version>
+        <max-version>#.#.*.*</max-version>
+      </compatibility>
+    </assembly>
+  </assemblies>
+  <extensions>
+    <addIn fullTypeName="PatientProfile.AddIn, PatientProfile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4d95002c27fab778" />
+  </extensions>
+</module>

@@ -1,0 +1,363 @@
+﻿{
+  "components": [
+    {
+      "component": "View",
+      "scope": "PanelTitle",
+      "value": "PanelTitle",
+      "values": [
+        {
+          "scope": "PanelTitle.attributes",
+          "value": {
+            "style": {
+              "border": "4px ",
+              "padding": "10px",
+              "margin": "5px",
+              "borderRadius": "5px",
+              "boxShadow": "0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "component": "View",
+      "scope": "selectView",
+      "value": "selectView",
+      "values": [
+        {
+          "scope": "selectView.attributes",
+          "value": {
+            "style": {
+              "border": "2px solid #fffdfd",
+              "padding": "6px",
+              "margin": "10px",
+              "borderRadius": "5px",
+              "boxShadow": "0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "component": "View",
+      "scope": "PanelView",
+      "value": "PanelView",
+      "values": [
+        {
+          "scope": "PanelView.attributes",
+          "value": {
+            "style": {
+              "border": "2px solid #fffdfd",
+              "padding": "6px",
+              "margin": "10px",
+              "borderRadius": "5px",
+              "boxShadow": "0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12)"
+            }
+          }
+        }
+      ]
+    }
+
+  ],
+  "views": [
+    {
+      "view": "PanelTitle",
+      "components": [
+        {
+          "component": "Text",
+          "scope": "TitleImg",
+          "value": "<img style=\"height:98%;width:100%\" src=\"img/MedicalReview.png\" />"
+        }
+      ]
+    },
+    {
+      "view": "PanelView",
+      "components": [
+        {
+          "component": "Switch",
+          "scope": "FilterLab.scope",
+          "value": false,
+          "values": [
+            {
+              "scope": "FilterLab.scope.attributes",
+              "value": {
+                "title": "Filter out Normal Lab Values",
+                "style": {
+                  "margin-top": "5px"
+                }
+              }
+
+            }
+          ]
+        },
+        {
+          "component": "SpotfireButton",
+          "scope": "ShowPPFilter.scope",
+          "value": "Add More Filter Selection",
+          "values": [
+
+            {
+              "scope": "ShowPPFilter.scope.attributes",
+              "value": {
+                "class": "btn btn-default btn-block btn-info",
+                "style": {
+                  "margin": "10px 0",
+                  "background-color": "#00ade1;",
+                  "border-color": "#008ec8;"
+                },
+                "title": "Add Filter Selection"
+              }
+            }
+          ]
+        },
+        {
+          "component": "SpotfireButton",
+          "scope": "RollPPFilter.scope",
+          "value": "RollUp Filter Selection",
+          "values": [
+            {
+              "scope": "RollPPFilter.scope.show",
+              "value": false
+            },
+            {
+              "scope": "RollPPFilter.scope.attributes",
+              "value": {
+                "class": "btn btn-default btn-block btn-info",
+                "style": {
+                  "margin": "10px 0",
+                  "background-color": "#00ade1;",
+                  "border-color": "#008ec8;"
+                },
+                "title": "RollUp Filter Selection"
+              }
+            }
+          ]
+        },
+        {
+          "component": "View",
+          "scope": "DesignFormFilter.scope",
+          "value": "DesignFormFilter",
+          "values": [
+            {
+              "scope": "DesignFormFilter.scope.show",
+              "value": false
+            },
+            {
+              "scope": "DesignFormFilter.scope.attributes",
+              "value": {
+                "style": {
+                  "padding": "10px 10px 10px 10px",
+                  "borderRadius": "5px",
+                  "boxShadow": "0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12)",
+                  "overflow-y": "scroll",
+                  "height": "500px"
+                }
+              }
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "view": "DesignFormFilter",
+      "components": [
+        
+        {
+          "component": "Filter",
+          "scope": "PPviewDesignFormFilter2",
+          "params": {
+            "filterScheme": "筛选方案",
+            "table": "dm(for browse)2",
+            "column": "Were any CS1001/Placebo Administered?"
+          }
+        },
+        {
+          "component": "Filter",
+          "scope": "PPviewDesignFormFilter3",
+          "params": {
+            "filterScheme": "筛选方案",
+            "table": "PatientProfile",
+            "column": "Event Type"
+          }
+        },
+        {
+          "component": "Filter",
+          "scope": "PPviewDesignFormFilter4",
+          "params": {
+            "filterScheme": "筛选方案",
+            "table": "lab-dic",
+            "column": "eCRF page name"
+          }
+        },
+        {
+          "component": "Filter",
+          "scope": "PPviewDesignFormFilter5",
+          "params": {
+            "filterScheme": "筛选方案",
+            "table": "lab-dic",
+            "column": "AnalyteName"
+          }
+        },
+        {
+          "component": "Filter",
+          "scope": "PPviewDesignFormFilter6",
+          "params": {
+            "filterScheme": "筛选方案",
+            "table": "lab-dic",
+            "column": "LiverFunctionOrNot"
+          }
+        }
+      ]
+    },
+    {
+      "view": "selectView",
+      "components": [
+
+        {
+          "component": "TableSelector",
+          "scope": "InputTable",
+          "value": "dm",
+          "values": [
+            {
+              "scope": "InputTable.show",
+              "value": false
+            }
+          ]
+        },
+        {
+          "component": "Select",
+          "scope": "ColumnPP",
+          "value": "Subject name or identifier",
+          "values": [
+            {
+              "scope": "ColumnPP.options",
+              "value": [
+                {
+                  "label": "Subject name or identifier",
+                  "value": "Subject name or identifier"
+                }
+              ]
+            },
+            {
+              "scope": "ColumnPP.value",
+              "value": "Subject name or identifier"
+            },
+            {
+              "scope": "ColumnPP.show",
+              "value": false
+            }
+          ]
+
+        },
+        {
+          "component": "ColumnValuesSelector",
+          "scope": "ColumnValue",
+
+          "values": [
+            {
+              "scope": "ColumnValue.attributes",
+              "value": {
+                "title": "Please Select SubjectID:(Global Search)"
+              }
+            },
+            {
+              "scope": "ColumnValue.show",
+              "value": false
+            }
+          ]
+        },
+        {
+          "component": "ButtonScript",
+          "scope": "btNewDesign",
+          "params": {
+            "scriptPath": "scripts/listAll.py" // path to the embedded resource
+          },
+          "value": "ListAllSubjects",
+          "values": [
+            {
+              "scope": "btNewDesign.attributes",
+              "value": {
+                "class": "btn btn-danger btn-block btn-info",
+                "style": {
+                  "margin": "10px 0",
+                  "background-color": "#00ade1;",
+                  "border-color": "#008ec8;"
+                }
+              },
+              "params": {
+                "help": "To show All SuBject ID"
+              }
+            }
+          ]
+        },
+        {
+          "component": "Filter",
+          "scope": "PPviewDesignFormFilter1",
+          "params": {
+            "filterScheme": "筛选方案",
+            "table": "dm",
+            "column": "Subject name or identifier"
+          }
+        }
+      ]
+    }
+  ],
+  "visualizationLayouts": [
+    {
+      "visualizationLayout": "PatientProfileLayout",
+      "layout": {
+        "grid": "row",
+        "children": [
+          {
+            "size": 15,
+            "layout": {
+              "grid": "column",
+              "children": [
+                {
+                  "size": 100,
+                  "scope": "SelectSubject01",
+                  "visualization": "SelectSubject01"
+                }
+
+              ]
+            }
+          },
+          {
+            "size": 85,
+            "layout": {
+              "grid": "column",
+              "children": [
+                {
+                  "size": 60,
+                  "scope": "PatientProfile01",
+                  "visualization": "PatientProfile01"
+
+                },
+                {
+                  "size": 40,
+                  "layout": {
+                    "grid": "row",
+                    "children": [
+                      {
+                        "size": 60,
+                        "scope": "PatientProfile02",
+                        "visualization": "PatientProfile02"
+                      },
+                      {
+                        "size": 40,
+                        "scope": "PatientProfile03",
+                        "visualization": "PatientProfile03"
+                      }
+
+                    ]
+                  }
+                },
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

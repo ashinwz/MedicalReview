@@ -1,0 +1,49 @@
+﻿// @Name: MedicalReviewApp
+// @Author: PKI_Zhuang
+// @Date: 2020-02-24
+// @Verison: 1.0.0.1
+// @Dependency: Tibco Spotfire 10.3.2, Perkinelmer Apps Filter(v 1.0.0.1)
+
+{
+  "name": "PatientProfile",
+  "description": "sda",
+  "group": "Core",
+  "enabledIcon": "icons/translational.png",
+  "disabledIcon": "icons/translational.png",
+  "image": "previews/default.png",
+  "pageName": "Sample App",
+  "parameters": [
+    {
+      "name": "PP Table",
+      "id": "InputTable",
+      "type": "table",
+    },
+    {
+      "name": "PP column",
+      "id": "ColumnPP",
+      "type": "column",
+      "parentParam": "InputTable"
+    },
+    {
+      "name": "PP Value",
+      "id": "ColumnValue",
+      "parentSettings": {
+        "id": "ColumnPP"
+      },
+      "type": "value",
+      //"multi": true
+    }
+  ],
+  "markings": [
+    {
+      "name": "PatientProfile00_App",
+      "global": true,
+      "color": "Chocolate"
+    },
+    {
+      "name": "PatientProfile01_App",
+      "global": true,
+      "color": "red"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<XmlFormat>
+  <MajorFormatVersion>1</MajorFormatVersion>
+  <MinorFormatVersion>0</MinorFormatVersion>
+  <Coloring PersistenceVersionMajor="31" PersistenceVersionMinor="0">
+    <DisplayName>PatientProfileColorScheme</DisplayName>
+    <EvaluatePerColumn>True</EvaluatePerColumn>
+    <EvaluatePerTrellis>False</EvaluatePerTrellis>
+    <DefaultColor>#FFFAA264</DefaultColor>
+    <EmptyColor>#FFA0A0A0</EmptyColor>
+    <ColorRules>
+      <CategoricalColorRule PersistenceVersionMajor="10" PersistenceVersionMinor="10">
+        <ManualDisplayName>\?</ManualDisplayName>
+        <Entries>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE  1</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFD026C</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE  2</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF4682B8</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE  3</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFA5D22D</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE  5</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFF5CC0A</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFE8C01</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Lab :</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF6B9494</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Lab H</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFB97C46</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Lab L</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF84ACD0</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Lab N</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFC2E173</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>Undefined</DataType>
+                  <Value>\?</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFA0A0A0</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>CM</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF239E58</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE  4</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFEB356</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>MH</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF379CDB</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE Grade 1</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFFD5CF</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE Grade 2</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFFAB9E</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE Grade 3</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFA7864</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE Grade 4</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFDB4D37</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE Grade 5</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF9E3323</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>AE </Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFD026C</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>ConMed</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFB97C46</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose 1000.00</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFD0A884</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose 1005.00</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF3A6C9A</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose 1034.00</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF89AF25</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose 1043.00</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFCCAA09</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose 1055.00</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFD2025A</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>EOT</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF33FF8B</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose: carboplatin</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFEB356</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose: CS1001</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FF597B7B</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose: CS1001/placebo</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFD0A884</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose: paclitaxel</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFF5CC0A</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>Dose: pemetrexed</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFB4DA50</Color>
+          </Entry>
+          <Entry>
+            <CategoryKey PersistenceVersionMajor="2" PersistenceVersionMinor="0">
+              <Parts>
+                <Part>
+                  <DataType>String</DataType>
+                  <Value>EOS</Value>
+                </Part>
+              </Parts>
+            </CategoryKey>
+            <Color>#FFFE9F2C</Color>
+          </Entry>
+        </Entries>
+        <Palette>
+          <Color>#FFFD026C</Color>
+          <Color>#FF4682B8</Color>
+          <Color>#FFA5D22D</Color>
+          <Color>#FFF5CC0A</Color>
+          <Color>#FFFE8C01</Color>
+          <Color>#FF6B9494</Color>
+          <Color>#FFB97C46</Color>
+          <Color>#FF84ACD0</Color>
+          <Color>#FFC2E173</Color>
+          <Color>#FFF9DD5B</Color>
+          <Color>#FFFE569D</Color>
+          <Color>#FFFEB356</Color>
+          <Color>#FF9CB8B8</Color>
+          <Color>#FFD0A884</Color>
+          <Color>#FF3A6C9A</Color>
+          <Color>#FF89AF25</Color>
+          <Color>#FFCCAA09</Color>
+          <Color>#FFD2025A</Color>
+          <Color>#FFD37501</Color>
+          <Color>#FF597B7B</Color>
+          <Color>#FF9A683A</Color>
+          <Color>#FF6597C5</Color>
+          <Color>#FFB4DA50</Color>
+          <Color>#FFF7D533</Color>
+          <Color>#FFFD2D85</Color>
+          <Color>#FFFE9F2C</Color>
+          <Color>#FF84A6A6</Color>
+          <Color>#FFC59365</Color>
+          <Color>#FF2E6072</Color>
+          <Color>#FF6D8C1E</Color>
+          <Color>#FFA48806</Color>
+          <Color>#FFA90148</Color>
+          <Color>#FFA95E01</Color>
+          <Color>#FF476363</Color>
+          <Color>#FF7B532F</Color>
+        </Palette>
+      </CategoricalColorRule>
+    </ColorRules>
+  </Coloring>
+</XmlFormat>

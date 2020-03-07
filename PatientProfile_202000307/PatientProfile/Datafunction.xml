@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ScriptFunctionDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version Major="1" Minor="0" />
+  <Name>DataFunction</Name>
+  <Script>OutputTable &lt;- table.value </Script>
+  <Input>
+    <Name>table.value</Name>
+    <Type>Value</Type>
+  </Input>
+  <Input>
+    <Name>column.value</Name>
+    <Type>Value</Type>
+  </Input>
+  <Output>
+    <Name>OutputTable</Name>
+    <Type>Table</Type>
+    <Description />
+  </Output>
+  <Description></Description>
+</ScriptFunctionDefinition>
